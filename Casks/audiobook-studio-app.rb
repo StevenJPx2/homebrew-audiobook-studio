@@ -9,10 +9,10 @@
 #
 # url + sha256 are bumped automatically by the app repo's release workflow.
 cask "audiobook-studio-app" do
-  version "0.1.2"
-  sha256 "cd9f4760edd13a10ff193970e6aca6da57457995665baed825d31d71ef348d54"
+  version "0.1.3"
+  sha256 "fc7af7a807a2f7808fbab0aeeb2bdb1728a3d884f29b710b8c45b431d0f17663"
 
-  url "https://github.com/StevenJPx2/audiobook-studio/releases/download/v0.1.2/AudiobookStudio-0.1.2-macos-arm64.zip"
+  url "https://github.com/StevenJPx2/audiobook-studio/releases/download/v0.1.3/AudiobookStudio-0.1.3-macos-arm64.zip"
   name "Audiobook Studio"
   desc "Turn a book PDF into a chaptered .m4b audiobook (local LLM + Kokoro TTS)"
   homepage "https://github.com/StevenJPx2/audiobook-studio"
