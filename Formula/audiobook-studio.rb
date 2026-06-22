@@ -18,7 +18,7 @@ class AudiobookStudio < Formula
   # Apple Silicon prebuilt tarball. Fill in url + sha256 from
   # scripts/package-cli-tarball.sh output at release time.
   url "https://github.com/StevenJPx2/audiobook-studio/releases/download/v0.1.0/abs-0.1.0-macos-arm64.tar.gz"
-  sha256 "REPLACE_WITH_SHA256_FROM_package-cli-tarball.sh"
+  sha256 "716f5567f1b0286032da71ea1c54f7384ca3148020761eb1a8a36be8ecaab9b7"
 
   depends_on :macos
   depends_on arch: :arm64
