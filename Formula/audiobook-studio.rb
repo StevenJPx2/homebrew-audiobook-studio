@@ -12,13 +12,13 @@
 class AudiobookStudio < Formula
   desc "PDF to chaptered .m4b audiobook with a local LLM + Kokoro TTS (CLI)"
   homepage "https://github.com/StevenJPx2/audiobook-studio"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   # Apple Silicon prebuilt tarball. Fill in url + sha256 from
   # scripts/package-cli-tarball.sh output at release time.
-  url "https://github.com/StevenJPx2/audiobook-studio/releases/download/v0.1.1/abs-0.1.1-macos-arm64.tar.gz"
-  sha256 "942d26467445751068c51fe9dcf88fe16553ec65b0f5d20b1c675f32e4c83c2d"
+  url "https://github.com/StevenJPx2/audiobook-studio/releases/download/v0.1.2/abs-0.1.2-macos-arm64.tar.gz"
+  sha256 "eb707e97a004ff75f7cc6be26aa6e1d3be4b7421f640f98f11de7ae20b597d2e"
 
   depends_on :macos
   depends_on arch: :arm64
